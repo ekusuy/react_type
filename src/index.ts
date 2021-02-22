@@ -1,1 +1,5 @@
-console.log("hello type");
+const log = (message: string): void => {
+  console.log(message);
+}
+
+log('Hello');
